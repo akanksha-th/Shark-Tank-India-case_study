@@ -13,7 +13,7 @@ IGNORE 1 ROWS;
 select * from sharktank
 
 
--- 1 You Team have to  promote shark Tank India  season 4, The senior come up with the idea to show highest funding domain wise  and you were assigned the task to  show the same.
+-- 1 Your Team have to  promote shark Tank India  season 4, The senior come up with the idea to show highest funding domain wise  and you were assigned the task to  show the same.
 	select * from
 	(
 	select   industry ,total_deal_amount_in_lakhs,row_number() over(partition by industry order by  total_deal_amount_in_lakhs desc) as rnk from sharktank

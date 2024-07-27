@@ -1,1 +1,1 @@
-# SQL_Case_Studies
+# SharkTankIndia_SQL_Case_Study
